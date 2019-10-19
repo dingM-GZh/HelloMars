@@ -28,6 +28,7 @@
           <e p="Grabbable.cs" t="Include" />
           <e p="Grabber.cs" t="Include" />
           <e p="Gun.cs" t="Include" />
+          <e p="HeadCollision.cs" t="Include" />
           <e p="Laser.cs" t="Include" />
           <e p="LevelHandler.cs" t="Include" />
           <e p="Locomotion.cs" t="Include" />
