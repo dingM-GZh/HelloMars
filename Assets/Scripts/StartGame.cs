@@ -11,6 +11,7 @@ public class StartGame : MonoBehaviour
     private void Start()
     {
         scene_loader = FindObjectOfType<SceneLoader>();
+        Debug.Log("FOUND SCENE LOADER");
     }
 
     private void OnTriggerEnter(Collider collider)
@@ -18,7 +19,7 @@ public class StartGame : MonoBehaviour
         //throw new NotImplementedException();
         /* int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(currentSceneIndex + 1);*/
-        
+        Debug.Log("TRIGGER");
         scene_loader.LoadNextScene();
     }
 }
