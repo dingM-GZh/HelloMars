@@ -6,6 +6,7 @@ TagManager:
   tags:
   - ExcludeTeleport
   - TeleportIgnore
+  - Controller
   - Glasses
   layers:
   - Default
