@@ -27,7 +27,7 @@ public class StartGame : MonoBehaviour
         /* int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(currentSceneIndex + 1);*/
         //Debug.Log("TRIGGER");
-        if (!is_loaded)
+        if (!is_loaded && collider.gameObject.CompareTag("glasses") )
         {
             Debug.Log("CHANGE SCENE");
             scene_loader.LoadNextScene();
